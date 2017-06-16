@@ -13,12 +13,15 @@ typedef struct node {
     struct node *right;
 } Node;
 
+/* create a node and dynamically allocate memory*/
 Node *create(char c, int freq)
 {
     Node *temp = (Node *) malloc(sizeof(Node));
     temp->letter = c;
     temp->value = freq;
     temp->left = temp->right = NULL;
+
+    /* returns a pointer to the node */
     return temp;
 }
 
