@@ -1,0 +1,2 @@
+# rzip
+Simple compression tool.
