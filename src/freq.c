@@ -1,7 +1,4 @@
-typedef struct freq {
-    char c;
-    unsigned int val;
-} Freq;
+#include "data.h"
 
 Freq *addf(char ch, int f)
 {

@@ -1,7 +1,4 @@
-/* binary tree for encoding traversal */
-typedef struct tree {
-    Node *root;
-} Tree;
+#include "data.h"
 
 /* create tree and add a root node */
 Node *createtree(Node *r)
