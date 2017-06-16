@@ -1,7 +1,7 @@
 #include "data.h"
 
 /* create tree and add a root node */
-Node *createtree(Node *r)
+Tree *createtree(Node *r)
 {
     Tree *temp = (Tree *) malloc(sizeof(Tree));
     temp->root = r;
@@ -16,7 +16,7 @@ void print(Node *r)
     if (r->left != NULL)
         print(r->left);
     if (r->right != NULL)
-        printf(r->right);
+        print(r->right);
 
     printf("%c: %d\n", r->letter, r->value);
 }

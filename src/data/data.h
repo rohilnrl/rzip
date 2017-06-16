@@ -9,8 +9,8 @@ typedef struct node {
     struct node *right;
 } Node;
 
-typedef /* binary tree for encoding traversal */
-struct tree {
+/* binary tree for encoding traversal */
+typedef struct tree {
     Node *root;
 } Tree;
 
@@ -22,3 +22,5 @@ typedef struct freq {
 void print(Node *);
 Tree *make();
 Node *create(char, int);
+Tree *createtree(Node *);
+Freq *addf(char, int);
