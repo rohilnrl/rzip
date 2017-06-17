@@ -10,16 +10,16 @@ rzip [OPTIONS] [PATH]
 ```
 
 # Options  
-```     
+```
 -p, --pack                         Compress the given folders/files 
 
--x, --extract                      Decompress the specified .zip file while **preserving** directory structure    
+-x, --extract                      Decompress the specified .zip file while preserving directory structure    
 
--n, --no-structure                 Decompress the specified .zip file while **disregarding** directory structure 
+-n, --no-structure                 Decompress the specified .zip file while disregarding directory structure 
 
 -v, --verbose                      Toggle verbose output           
-```    
-   
+    
+ ```  
 
 
 # Authors 
