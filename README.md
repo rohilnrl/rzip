@@ -11,7 +11,7 @@ rzip [OPTIONS] [PATH]
 
 # Options  
 ```     
--p, --pack                            Compress the given folders/files 
+-p, --pack                         Compress the given folders/files 
 
 -x, --extract                      Decompress the specified .zip file while **preserving** directory structure    
 
