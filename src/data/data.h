@@ -1,26 +1,17 @@
-#include <stdlib.h>
-#include <stdio.h>
-
 /* node of the Huffman tree */
 typedef struct node {
-    unsigned int value;
+    unsigned int frequency;
     char letter;
     struct node *left;
     struct node *right;
 } Node;
 
-/* binary tree for encoding traversal */
-typedef struct tree {
-    Node *root;
-} Tree;
+/* heap to make the Huffman tree */
+typedef struct heap {
+    unsigned int size;
+    unsigned int space;
+    Node **array;
+} Heap;
 
-typedef struct freq {
-    char c;
-    unsigned int val;
-} Freq;
-
-void print(Node *);
-Tree *make();
-Node *create(char, int);
-Tree *createtree(Node *);
-Freq *addf(char, int);
+Node *newnod(char, unsigned int);
+Heap *newhep(unsigned int);
