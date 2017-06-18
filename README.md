@@ -23,4 +23,5 @@ rzip [OPTIONS] [PATH]
 
 
 # Authors 
-Rohil Narula     
+Rohil Narula    
+Shrey Khandwekar
