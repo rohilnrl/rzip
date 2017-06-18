@@ -2,7 +2,7 @@
 A fast, simple compression tool that utilizes the [Huffman algorithm.](http://www.geeksforgeeks.org/greedy-algorithms-set-3-huffman-coding/)     
 
 # Description 
-Rzip is a command-line program written in C that creates and decompresses archives in the **.rzip** format. It is compatible only with Linux at this time.
+Rzip is a command-line program written in C that creates and decompresses archives in the **.rzip** format. It is compatible only with UNIX at this time.
 
 # Usage 
 ```    
