@@ -15,3 +15,5 @@ typedef struct heap {
 
 Node *newnod(char, unsigned int);
 Heap *newhep(unsigned int);
+void swap(Node **, Node **);
+int getsiz(Heap *);
